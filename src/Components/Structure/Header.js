@@ -10,7 +10,7 @@ const Header = (props) => {
 
         <header className={styles.header}>
         <h1>Generic Name</h1>
-        <CartButton />
+        <CartButton onClick={props.onCartClick}/>
         </header>
         
         <div className={styles['main-image']}>
